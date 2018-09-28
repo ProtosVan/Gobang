@@ -5,10 +5,10 @@
 #pragma warning(disable: 4996)
 #define print printf
 
-void draw(void);
-void judge(int players);
-void AI(void);
-void forb(void);
+void draw(void);// »­ÆåÅÌ
+void judge(int players);// ÅĞ¶ÏÊ¤¸º
+void AI(void);// Âä×ÓAI
+void forb(void);// ½ûÊÖ
 
 extern int WINNER;
 extern bool GAMEOVER;
