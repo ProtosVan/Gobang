@@ -4,11 +4,14 @@
 
 #pragma warning(disable: 4996)
 #define print printf
+#define nULL 0
+#define eDGE -1
+
 
 void draw(void);// 画棋盘
 void judge(int players);// 判断胜负
 void AI(void);// 落子AI
-void forb(void);// 禁手
+void forb(int players);// 禁手
 
 extern int WINNER;
 extern bool GAMEOVER;
